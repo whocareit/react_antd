@@ -1,0 +1,42 @@
+li,ul{
+    list-style: none;
+}
+
+.detail-items{
+    margin-bottom: 5px;
+    border: 1px solid #eee;
+    .detail-title{
+        color: #888;
+        font-size: 16px;
+        margin-top: 1%;
+        margin-left: 10%;
+    }
+    .detail-form{
+        .clear-fix{
+            margin-bottom: 10px;
+            &::after{
+                content: '';
+                display: block;
+                clear: both;
+                visibility: hidden;
+            }
+        }
+        color: #999;
+        margin-top: 2%;
+        margin-left: 14%;
+        .detail-form-left{
+            float: left;
+        }
+        .detail-form-content{
+            float: left;
+            margin-left: 20px;
+        }
+    }
+}
+
+.detailMap{
+    height: 400px;
+    border: 1px solid black;
+    width: 80%;
+    margin: 0 auto;
+}
